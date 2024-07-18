@@ -1,0 +1,107 @@
+<?php
+session_start();
+if(!isset($_SESSION['username'])) header('Location: loginpg.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEEKLY EVALUATION</title>
+    <link rel="stylesheet" href="styyles.css">
+</head>
+<body>
+    <header>
+                <div class="navbar">
+                        <img src="https://www.africa-newsroom.com/files/large/83379a847dc9ee6" alt="powerlearn logo">
+                       <!-- <h1>WELCOME TO PLP WEEKLY EVALUATION</h1> -->
+                </div>
+     </header>
+   
+
+
+     <div class="Foreword">
+        
+       <section>
+        <h2>WELCOME TO PLP WEEKLY EVALUATION</h2><br>
+        </section>
+
+        <section>
+            <p>Hello learners! We hope you're enjoying your journey with new technologies.
+                 To support you better, we've created this platform to track your progress.<br>
+
+                Please provide a weekly update on your module experiences, share your thoughts, and suggest improvements.<br>
+                Below are the modules—answer the questions and submit your responses. Good luck!</p><br><br>
+        </section>
+    </div>
+        <h3>Choose a module to start Evaluation:</h3><br><br>
+
+
+
+   <div class="container">
+            
+        <div class="card">
+            <img src="https://s3.fr-par.scw.cloud/files.powerlearnproject.org/lms/production/images/EoicQLjsJjkoxjjy?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW1GD83Z2RS0PZEWJNW%2F20240627%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20240627T125250Z&X-Amz-Expires=518400&X-Amz-SignedHeaders=host&X-Amz-Signature=a7ff653851abf6bbe076f1f0c76931be2f7189a9a806030e9f81c64ab1ee59a2" alt="Software Engineering image">
+            <p>This module is meant to make you better by equiping you with skills that will enable you build solution for yourself and community at large</p>
+            <a href="web.html">START EVALUATION</a>
+        </div>
+
+        <div class="card">
+            <img src="https://s3.fr-par.scw.cloud/files.powerlearnproject.org/lms/production/images/Software-engineering-card.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW1GD83Z2RS0PZEWJNW%2F20240627%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20240627T125250Z&X-Amz-Expires=518400&X-Amz-SignedHeaders=host&X-Amz-Signature=5824a03d59c944a48ab169b8c7bf579e91f0b5ca4e019649debfe784b43caefe" alt="Web technologies image">
+            <p>This is a compulsory module that allows you to have the general idea of what you should have to be a successful developer</p>
+            
+          
+            <a href="soft.html">START EVALUATION</a>
+
+        </div>
+
+        <div class="card">
+            <img src="https://s3.fr-par.scw.cloud/files.powerlearnproject.org/lms/production/images/database.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW1GD83Z2RS0PZEWJNW%2F20240627%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20240627T125250Z&X-Amz-Expires=518400&X-Amz-SignedHeaders=host&X-Amz-Signature=eaba1ee9b85d5bfa5eaea7d1873104106ab6e20fa6807b598c9e6d30d629ef65" alt="Database Management">
+            <p>Database management skills are very crucial because all the solutions you will have must have a database to store data that will be entered and alsomake it available when there is need to retrieve it</p>
+            <a href="database.html">START EVALUATION</a>
+            <!-- <button onclick="location.href='database.html'"></button> -->
+
+        </div>
+
+        <div class="card">
+            <img src="https://s3.fr-par.scw.cloud/files.powerlearnproject.org/lms/production/images/entrepreneurship.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW1GD83Z2RS0PZEWJNW%2F20240627%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20240627T125250Z&X-Amz-Expires=518400&X-Amz-SignedHeaders=host&X-Amz-Signature=3b71d4b10163b814b53507160475a65feb2a12a3e741c87c9fcc146c6eb49a00" alt="Entrepreneurship">
+            <p>You need enterpreneural skiils to be able to market yourself out there. This far we hope you can handle yourself better before investors. Happy Evaluation</p>
+            <a href="enteprenenuer.html">START EVALUATION</a>
+
+        </div>
+
+    </div>
+
+
+<!--
+        <div class="cards">
+            <div class="module1">
+                <img src="https://s3.fr-par.scw.cloud/files.powerlearnproject.org/lms/production/images/EoicQLjsJjkoxjjy?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW1GD83Z2RS0PZEWJNW%2F20240627%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20240627T125250Z&X-Amz-Expires=518400&X-Amz-SignedHeaders=host&X-Amz-Signature=a7ff653851abf6bbe076f1f0c76931be2f7189a9a806030e9f81c64ab1ee59a2" alt="Web technologies image">
+                <button>Click to Evaluate</button>
+            </div> 
+<br>
+            <div class="module2">
+                <img src="https://s3.fr-par.scw.cloud/files.powerlearnproject.org/lms/production/images/Software-engineering-card.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW1GD83Z2RS0PZEWJNW%2F20240627%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20240627T125250Z&X-Amz-Expires=518400&X-Amz-SignedHeaders=host&X-Amz-Signature=5824a03d59c944a48ab169b8c7bf579e91f0b5ca4e019649debfe784b43caefe" alt="Software Engineering image">
+                <button>Click to Evaluate</button>
+            </div>
+
+            <div class="module3">
+                <img src="https://s3.fr-par.scw.cloud/files.powerlearnproject.org/lms/production/images/database.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW1GD83Z2RS0PZEWJNW%2F20240627%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20240627T125250Z&X-Amz-Expires=518400&X-Amz-SignedHeaders=host&X-Amz-Signature=eaba1ee9b85d5bfa5eaea7d1873104106ab6e20fa6807b598c9e6d30d629ef65" alt="Database Management">
+                <br>
+                <button>Click to Evaluate</button>
+            </div>
+
+            <div class="module4">
+                <img src="https://s3.fr-par.scw.cloud/files.powerlearnproject.org/lms/production/images/entrepreneurship.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SCW1GD83Z2RS0PZEWJNW%2F20240627%2Ffr-par%2Fs3%2Faws4_request&X-Amz-Date=20240627T125250Z&X-Amz-Expires=518400&X-Amz-SignedHeaders=host&X-Amz-Signature=3b71d4b10163b814b53507160475a65feb2a12a3e741c87c9fcc146c6eb49a00" alt="Entrepreneurship">
+                <br>
+                <button>Click to Evaluate</button>
+            </div>
+        </div>
+        -->
+        <div class="footer">
+            <section>
+           <footer> <h3>© Copyright 2024 by Power Learn Project All rights reserved</h3></footer>
+            </section>
+       </div>
+</body>
+</html>
